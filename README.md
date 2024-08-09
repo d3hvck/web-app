@@ -4,15 +4,15 @@
 
 DNS Records -------------->> ip addr
 
-:>SAST ------------------->> Static Analysis
+SAST ------------------->> Static Analysis
 
-:>Input valid test ------->> XSS
+Input valid test ------->> XSS
 
-:>Query and Param enum --->> SQLi, XSS
+Query and Param enum --->> SQLi, XSS
 
-:>Automated Scans:
+Automated Scans:
 
-::::>Well Known Tools:
+- Well Known Tools:
 
       Subfinder ------>> Subdomain Enum
       
@@ -40,7 +40,7 @@ DNS Records -------------->> ip addr
       
       SQLMap --------->> SQL Injection <-Exploitation
       
-::::>Other type Tools:
+- Other type Tools:
 
       katana --------->> Web Crawl (Parameter Scanner)
       
@@ -50,7 +50,7 @@ DNS Records -------------->> ip addr
       
       RustScan ------->> Port Scanner
       
-::::>Licensed Automated Tools:
+- Licensed Automated Tools:
 
       BurpSuite Pro -->> Web Crawl & Audit & Vuln Scanner
       
