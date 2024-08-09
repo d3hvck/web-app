@@ -2,13 +2,13 @@
 
 /sitemap.xml
 
-DNS Records -------------->> ip addr
+DNS Records ->> ip addr
 
-SAST ------------------->> Static Analysis
+SAST ->> Static Analysis
 
-Input valid test ------->> XSS
+Input valid test ->> XSS
 
-Query and Param enum --->> SQLi, XSS
+Query and Param enum ->> SQLi, XSS
 
 Automated Scans:
 
